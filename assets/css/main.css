@@ -1,0 +1,117 @@
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+/* Second nav bar */
+
+.second-nav >ul{
+    display: flex;
+     justify-content: space-evenly ;
+     width: 100%;
+}
+.right-second-nav > ul{
+    display: flex; 
+    justify-content: flex-end; 
+    width: 100%;    
+}
+    img {
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+      
+}
+
+/* Landing page */
+
+.landing-page{
+    background-image:url(../images/jacek-dylag-jo8C9bt3uo8-unsplash.jpg);
+    height: 100vh;
+    min-height: 500px;
+    /* background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+.landing-page > div{
+    display: flex;
+    justify-content: center;
+}
+.landing-page-text{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.landing-page-div{
+    display: flex;
+    justify-content: center;
+}
+
+.landing-page-div > button {
+    border: 2px solid rgb(61, 61, 61);
+    background-color: transparent;
+}
+.landing-page-div > button:hover{
+    color:white;
+    background:rgb(61, 61, 61);
+}
+/* Main content */
+
+/* First card section */
+
+.first-card>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.first-card-button{
+    width: 160px;
+}
+.first-card-button:hover{
+    color:white;
+    background:rgb(61, 61, 61);
+    border: none;
+}
+
+/* Second card heading */
+
+.second-card-heading{
+    display:flex;
+    justify-content:center;
+}
+
+.second-card > div{
+    background-color:  rgb(167, 166, 166);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.second-card-icon{
+    background-color: white;
+}
+
+.second-card-text{
+    background-color:white;
+    color: rgb(167, 166, 166);
+}
+
+/* Footer */
+
+.footer > div{
+    display: flex; 
+    justify-content:center; 
+    align-items: center;
+}
